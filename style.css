@@ -8,7 +8,7 @@ h1 {
 .color {
   color: orange;
 }
-section {
+  .felexable-container{
   display: flex;
   margin-bottom: 150px;
 }
@@ -37,4 +37,21 @@ section {
   background-position: right;
 
 
+}
+.experience-area{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+.experience-item{
+  box-shadow: 10px 10px 40px rgb(80, 45, 20);
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+footer p{
+  text-align: center;
 }
